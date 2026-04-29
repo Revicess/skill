@@ -74,6 +74,11 @@ python3 /var/minis/skills/qx-converter/scripts/convert_compat_layer.py \
 - 在其他平台上为 `$prefs`、`$task.fetch`、`$notify`、`$done` 提供等价实现
 - 用户代码完全不变，QX API 调用原样保留
 
+## 依赖
+
+- Python 3（标准库 re、os、argparse）
+- Env.js 方案需 **Env.min.js**：[chavyleung/scripts](https://github.com/chavyleung/scripts)（GPL 协议）
+
 ## 支持的目标平台
 
 Surge、Loon、Shadowrocket、Stash、Egern、Quantumult X、Node.js

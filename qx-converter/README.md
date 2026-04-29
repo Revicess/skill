@@ -64,4 +64,7 @@ qx-converter/
 ## 依赖
 
 - Python 3（标准库 re、os、argparse）
-- Env.js 方案需 Env.min.js（默认 `/var/minis/shared/Chavy/Env.min.js`）
+- Env.js 方案需 **Env.min.js**（默认 `/var/minis/shared/Chavy/Env.min.js`）
+  - 来源仓库：[chavyleung/scripts](https://github.com/chavyleung/scripts)（GPL 协议）
+  - 文件位于仓库根目录，正式版可直接引用 `Env.min.js` 或 `Env.js`（可读版本）
+  - 本工具的默认 Env.min.js 已内置于 `/var/minis/shared/Chavy/` 下
